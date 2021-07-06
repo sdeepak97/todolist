@@ -6,6 +6,7 @@ const isCompiled = path.extname(__filename).includes("js");
 
 dotenv.config();
 
+
 export default {
   url:process.env.DATABASE_URL,
   ssl:{rejectUnauthorized:false},
